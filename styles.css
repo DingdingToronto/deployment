@@ -1,0 +1,49 @@
+/* styles.csss */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    font-size: 48px;
+    text-transform: uppercase;
+    margin-top: 20px;
+  }
+  
+  h2 {
+    font-size: 36px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  h3 {
+    font-size: 20px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(135deg, #ff1493, #ff8c00, #ffff00, #008000, #0000ff, #800080);
+    background-size: 1000% 1000%;
+    animation: gradient 3s infinite;
+    color: white;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .fa-weibo {
+    font-size: 100pxs;
+  }
+  
+  
